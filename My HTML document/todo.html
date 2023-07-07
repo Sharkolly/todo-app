@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TODO APP</title>
+
+    <link rel="stylesheet" href="/css/aa.css" />
+    <link rel="shortcut icon" href="/svg/albums.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Todo-App</h1>
+
+      <div class="inputes">
+        <label for="todo">Todo Name:</label>
+        <input
+          type="text"
+          name="todo"
+          class="todo-input"
+          minlength="3"
+          maxlength="18"
+          placeholder="Enter your todo-list ..."
+        />
+        <label for="date">Date:</label>
+        <input type="date" name="date" class="datePicker" />
+        <label for="time">Time:</label>
+        <input type="time" name="time" class="datePicker" id="time" />
+      </div>
+      <div class="clear">
+        <p class="red">You have an empty selection!</p>
+        <button class="ssubmit">Clear</button>
+      </div>
+      <button class="submit" type="submit" title="Submit">Submit</button>
+      <div class="todo-list">
+        <!-- <p>Todos-Lists Available</p> -->
+      </div>
+    </div>
+
+    <script src="../Javascript/aa.js"></script>
+  </body>
+</html>
