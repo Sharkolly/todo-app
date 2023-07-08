@@ -9,7 +9,7 @@ body{
     
 }
 div.wrap{
-    width: 92%;
+    width: 93%;
     max-width: 800px;
     margin-inline: auto;
     /* border: 2px solid indigo; */
@@ -27,24 +27,26 @@ div.inputes{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 98%;
+    width: 100%;
 }
 input{
     height: 2.5rem;
     outline: none;
-    /* padding-inline: 1em; */
     padding-block: .6rem;
-    font-size: 11px;
+    font-size: 3rem;
     color: indigo;
     font-size: .8rem;
-    padding-left: .5rem;
+    padding-left: 1.2rem;
     /* text-transform: capitalize; */
     border-radius: 5px;
-    border: none; 
-    width: 100%;
+    width: 95%;
     border: 2px solid indigo;
 }
+.todo-input{
+    font-size: 1.1rem;
+}
 .todo-input::placeholder{
+    font-size: 1rem;
     color: indigo;
 }
 .datePicker{
@@ -55,7 +57,7 @@ button.submit{
     width: 100%;
     font-size: 16px;
     border: none;
-    padding: 1.24em .9rem;
+    padding: 1.3em .9rem;
     border-radius: 5px;
     background: indigo;
     color: white;
@@ -95,7 +97,7 @@ div.todo{
 }
 .removeBtn{
     border-radius: 7px;
-    padding: .1rem 1.2rem;
+    padding: .4rem 1.5rem;
     background: indigo;
     color: white;
     cursor: pointer;
