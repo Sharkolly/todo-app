@@ -33,6 +33,7 @@ input{
     height: 2.5rem;
     outline: none;
     /* padding-inline: 1em; */
+    padding-block: 1rem;
     font-size: 11px;
     color: indigo;
     font-size: .8rem;
@@ -53,7 +54,7 @@ button.submit{
     width: 100%;
     font-size: 16px;
     border: none;
-    padding: .7em .9rem;
+    padding: 1.24em .9rem;
     border-radius: 5px;
     background: indigo;
     color: white;
